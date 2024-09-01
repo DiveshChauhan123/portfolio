@@ -47,7 +47,16 @@ export const gridItems = [
     spareImg: "/b4.svg",
   },
 
-  
+  {
+    id: 5,
+    title: "Currently building a JS Animation library",
+    description: "The Inside Scoop",
+    className: "md:col-span-3 md:row-span-2",
+    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+    titleClassName: "justify-center md:justify-start lg:justify-center",
+    img: "/b5.svg",
+    spareImg: "/grid.svg",
+  },
   {
     id: 6,
     title: "Do you want to start a project together?",
@@ -63,26 +72,24 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Hill'ffair",
-    des: "Provided on-site support during events, handling any issues or emergencies promptly.",
+    title: "Hill'FFair",
+    des: "Annual cultural fest website",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://festhillffair.netlify.app/",
+    link: "/ui.earth.com",
   },
   {
     id: 2,
     title: "Pharmacy",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "A hospital appointment app streamlines the process of booking, managing, and tracking medical appointments, making healthcare access more convenient and efficient for patients.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/DiveshChauhan123",
+    link: "/ui.yoom.com",
   },
-  
-  
+ 
 ];
 
 export const testimonials = [
-  
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
@@ -94,8 +101,25 @@ export const testimonials = [
       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
     name: "Michael Johnson",
     title: "Director of AlphaStream Technologies",
-  }
-  
+  },
+  {
+    quote:
+      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+    name: "Michael Johnson",
+    title: "Director of AlphaStream Technologies",
+  },
+  {
+    quote:
+      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+    name: "Michael Johnson",
+    title: "Director of AlphaStream Technologies",
+  },
+  {
+    quote:
+      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+    name: "Michael Johnson",
+    title: "Director of AlphaStream Technologies",
+  },
 ];
 
 export const companies = [
@@ -134,11 +158,10 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Executive Member July 2023-June 2024 at pixonoids",
-    desc: "• Revamped Fest website UI, achieving a 45 percent increase in user satisfaction and a 60 Orchestrated the collaborative efforts of designers, developers, and content creators to build a highly responsivewebsite, reducing bounce rates by 30 percent and elevating user engagement by 40 percent within the firstquarter.",
+    title: "Exceutive member PIxonoids",
+    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
-    
   },
   
 ];
@@ -152,11 +175,12 @@ export const socialMedia = [
   {
     id: 2,
     img: "/twit.svg",
-    link:"https://www.instagram.com/d___ivesh/",
+    link:"https://x.com/DiveshC98429349"
+
   },
   {
     id: 3,
     img: "/link.svg",
-    link:"https://x.com/DiveshC98429349",
+    link:"https://www.linkedin.com/in/divesh-singh-6ty/"
   },
 ];

@@ -7,7 +7,10 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 const Hero = () => {
   return (
     <div className="pb-20 pt-36">
-      
+      {/**
+       *  UI: Spotlights
+       *  Link: https://ui.aceternity.com/components/spotlight
+       */}
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -54,7 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Divesh singh chauhan, a Next.js Developer based in INDIA.
+            Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
           </p>
 
           <a href="#about">
